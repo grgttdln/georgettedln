@@ -109,3 +109,16 @@ nav a {
 .decoration-header-container {
     position: relative;
 }
+
+.about-me--sub-container {
+    margin-top: 5rem;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+}
+
+.about-me--sub-container div {
+    grid-column: 1;
+    margin-top: 1rem;
+    line-height: 2.2rem;
+}
