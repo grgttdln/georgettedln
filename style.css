@@ -67,6 +67,10 @@ nav a {
     font-family: 'Poppins', sans-serif;
 }
 
+.about-me--main-container {
+    margin-bottom: 5%;
+}
+
 .home--title {
     font-size: 45px;
 }
@@ -96,7 +100,7 @@ nav a {
 .decoration-header {
     background-color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 45px;
+    font-size: 50px;
     color: #4CC9F0;
     font-weight: 500;
     padding-right: 3rem;
@@ -111,14 +115,23 @@ nav a {
 }
 
 .about-me--sub-container {
-    margin-top: 5rem;
-    font-size: 20px;
-    display: grid;
-    grid-template-columns: 4fr 6fr;
+    margin-top: 7rem;
+    font-size: 23px;
+    display: flex;
 }
 
-.about-me--sub-container div {
-    grid-column: 1;
+.about-me--desc {
     margin-top: 1rem;
     line-height: 2.2rem;
+    /* background-color: red; */
+}
+
+
+.about-me--me-img {
+    margin-top: -10rem;
+    height: 40rem;
+}
+
+.about-me--img-container {
+    /* background-color: green; */
 }
