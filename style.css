@@ -121,15 +121,16 @@ nav a {
 }
 
 .about-me--desc {
-    margin-top: 1rem;
+    margin-top: 3rem;
     line-height: 2.2rem;
     /* background-color: red; */
 }
 
-
 .about-me--me-img {
     margin-top: -10rem;
-    height: 40rem;
+    height: 20rem;
+    padding: 3rem;
+    padding-top: 10rem;
 }
 
 .about-me--img-container {
