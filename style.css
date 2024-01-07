@@ -136,3 +136,56 @@ nav a {
 .about-me--img-container {
     /* background-color: green; */
 }
+
+.toolkit--sub-container {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+
+.toolkit--box-container {
+    /* border: 2px solid salmon; */
+    box-shadow: 0 0 10px #c3c3c38e;
+    border-radius: 16px;
+    margin: 0rem 12px 1rem 0rem;
+}
+
+.toolkit--pl {
+    height: 4rem;
+    padding: 1rem;
+}
+
+.toolkit--section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 2rem;
+}
+
+.toolkit--title {
+
+}
+
+.toolkit--title p {
+    display: inline;
+    font-size: 24px;
+    background-color: #4CC9F0;
+    color: white;
+    padding: 0.45rem;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+.toolkit--group {
+    margin-top: 2.5rem;
+    padding: 1rem;
+}
+
+.one {
+    background-color: rebeccapurple;
+}
+
+.two {
+    background-color: orangered;
+}
