@@ -211,12 +211,29 @@ nav a {
 }
 
 .certifications--box a {
-    color: black;
     text-decoration: none;
+    color: inherit;
     margin-top: auto;
     margin-bottom: 0.5rem;
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
 }
 
-.certifications--box a:hover {
+.certifications--box a i {
+    margin-left: 0.5rem;
+    transition: transform 0.2s ease-in;
+}
+
+.certifications--box a:hover i {
+    transform: translateX(16px);
+}
+
+.certification--link i {
+    margin-left: 0.5rem;
+}
+
+.certification--link:hover {
     color: #4CC9F0;
 }
+
