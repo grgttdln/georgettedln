@@ -48,6 +48,8 @@
 .header--menus a {
     padding: 0 3% 0 3%;
     cursor: pointer;
+    text-decoration: none;
+    color: inherit;
 }
 
 .header--menus a:hover {
@@ -382,4 +384,65 @@ footer {
     left: 17%;
     font-weight: 300;
     z-index: 2;
+}
+
+.tk--sub-container {
+    margin-top: 7rem;
+}
+
+.tk--box-group {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tk--box-container {
+    /* border: 2px solid salmon; */
+    box-shadow: 0 0 10px #c3c3c38e;
+    border-radius: 16px;
+    margin: 0rem 12px 1rem 0rem;
+}
+
+.tk--pl {
+    height: 3.5rem;
+    padding: 1rem;
+}
+
+.tk--tools-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.tk--title {
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+}
+
+.tk--title::before {
+    content: "";
+    position: absolute;
+    top: 40%; 
+    left: -2rem;
+    width: 120%;
+    height: 1.5rem; 
+    background-color: #4ccaf04e;
+    border-radius: 0 0 16px 16px;
+}
+
+.tk--desc {
+    font-weight: 300;
+}
+
+.tk-words {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
