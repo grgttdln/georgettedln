@@ -35,3 +35,12 @@ const observer_tool = new IntersectionObserver((items) => {
 
 const hiddenTool = document.querySelectorAll('.hiddenTool');
 hiddenTool.forEach((elem) => observer_tool.observe(elem));
+
+
+// hamberger toggle navbar
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
