@@ -1,6 +1,6 @@
 # Personal Website Discussion
 
-## ❓ How your website accomplished each item in the criteria.
+# How your website accomplished each item in the criteria.
 
 ## 1. 💬 
 > [!IMPORTANT]  

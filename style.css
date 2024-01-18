@@ -413,7 +413,7 @@ nav a {
 }
 
 .certification--outer {
-    margin-top: 7rem;
+    padding-top: 4rem;
 }
 
 
@@ -421,10 +421,11 @@ nav a {
 /* CONTACT SECTION */
 
 .contact--sub-container {
-    margin-top: 7rem;
+    padding-top: 4rem;
 }
 
 .contact--msg {
+    margin-top: 3rem;
     font-size: clamp(30px, 5vw, 40px);
 }
 
@@ -466,6 +467,8 @@ footer {
     display: grid;
     grid-template-columns: 5fr 5fr;
     margin-top: 6rem;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .project--box {
@@ -542,7 +545,7 @@ footer {
     display: flex;
     position: relative;
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
 }
 
 .project--featured-box:hover .overlay-effect::before, .project--featured-box-l:hover .overlay-effect-l::before {
@@ -634,7 +637,7 @@ footer {
     position: relative;
     width: 100%;
     justify-content: end;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
 }
 
 .project---collecttion-title {
@@ -699,6 +702,8 @@ footer {
     margin-top: 2rem;
     text-align: center;
     margin-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 .tk--title {
@@ -720,6 +725,8 @@ footer {
 
 .tk--desc {
     font-weight: 300;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 .tk-words {
@@ -901,9 +908,12 @@ footer {
 
     /* MAIN CONTAINER */
     .body--main-container {
-        display: grid;
-        grid-template-columns: 50px auto 50px;
+        grid-template-columns: 1fr;
     }
+
+    /* .home--main-container {
+        display: grid;
+    } */
 
     /* HEADER SECTION */
     .header--main-container, .header--main-container a {
