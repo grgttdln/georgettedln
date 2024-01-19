@@ -94,6 +94,7 @@ nav a {
     padding-left: 2.5rem;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .navbar-links {
@@ -116,6 +117,7 @@ nav a {
     text-decoration: none;
     color: black;
     padding: 0 1.5rem 0 1.5rem;
+    transition: color 0.2s ease-in;
 }
 
 .navbar-links li a:hover {
@@ -168,9 +170,9 @@ nav a {
 .decoration-header {
     background-color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: clamp(40px, 5vw, 50px);
+    font-size: clamp(30px, 5vw, 50px);
     color: #4CC9F0;
-    font-weight: 500;
+    font-weight: 600;
     padding-right: 3rem;
 }
 
@@ -421,7 +423,7 @@ nav a {
 /* CONTACT SECTION */
 
 .contact--sub-container {
-    padding-top: 4rem;
+    padding: 4rem 0;
 }
 
 .contact--msg {
@@ -453,8 +455,8 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-bottom: 3rem;
     margin-top: 3rem;
+    margin-bottom: -6rem;
     font-size: clamp(6px, 5vw, 16px);
     color: gray;
 }
@@ -499,7 +501,7 @@ footer {
     z-index: 2;
     color: white;
     background-color: #4CC9F0;
-    font-size: clamp(10px, 5vw, 20px);
+    font-size: clamp(6px, 5vw, 20px);
     border-radius: 8px;
     text-align: center;
     padding: 0.2rem 0.7rem;
@@ -534,6 +536,8 @@ footer {
     top: 87%;
     left: 17%;
     font-weight: 300;
+    font-size: 16px;
+    margin-left: 5px;
     z-index: 2;
 }
 
@@ -644,6 +648,9 @@ footer {
     font-size: clamp(22px, 5vw, 32px);
     font-weight: 600;
     position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .project--highlight {
@@ -899,28 +906,39 @@ footer {
 /* RESPONSIVENESS */
 
 /* Phone */
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 650px) {
+    
+    /* HOME SECTION */
+    .home--btn-name {
+        display: none;
+    }
+
+    .home--btn-container, .home--btn-container-first {
+        padding: 1.5rem;
+    }
     
 }
   
 /* Tablet */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
 
     /* MAIN CONTAINER */
     .body--main-container {
-        grid-template-columns: 1fr;
-    }
-
-    /* .home--main-container {
-        display: grid;
-    } */
+        display: flex;
+        flex-direction: column;
+        padding: 5rem;
+    }   
 
     /* HEADER SECTION */
     .header--main-container, .header--main-container a {
         font-size: 14px;
     }
 
-   
+    /* PROJECT SECTION */
+    .project--title {
+        font-size: 14px;
+    }
+
 }   
   
 /* Small Screen */
@@ -930,6 +948,17 @@ footer {
      .projects--main-container {
         font-size: 12px;
     }
+
+    .project--tools {
+        font-size: 10px;
+    }
+ 
+
+    /* TOOLKIT SECTION */
+    .tk--tools-group {
+        flex-wrap: wrap;
+    }
+
 }
 
 @media (max-width: 1000px) {
